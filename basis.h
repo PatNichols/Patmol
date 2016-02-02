@@ -1,4 +1,4 @@
-#ifndef BASIS_H_
+#ifndef BASIS_H
 #define BASIS_H_
 #include <stdio.h>
 #include <stdlib.h>
