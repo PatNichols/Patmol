@@ -4,6 +4,7 @@
 #include "util.h"
 #include "basis.h"
 #include "rhfscf.h"
+#include "uhfscf.h"
 
 int
 main ( int argc, char **argv )
