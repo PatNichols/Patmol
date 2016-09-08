@@ -30,5 +30,5 @@ extern void rhf_mpi_output ();
 extern void rhf_mpi_form_xmatrix ();
 extern void rhf_mpi_form_guess ();
 extern void rhf_mpi_getDipoleHam ( const double *fld );
-//extern void rhf_mpi_clean();
+extern void rhf_mpi_clean();
 #endif

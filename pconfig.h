@@ -2,8 +2,8 @@
 #define _PCONFIG_H_
 #include "config.h"
 
-#define TMPDIR_NAME "/tmp/"
-#define TMPDIR_LEN 6
+#define TMPDIR_NAME "/glade/scratch/pnichols/"
+#define TMPDIR_LEN 25
 #define MAXFILESIZE 1048576*1024
 //#define BINSIZE 1000
 #define MAXL 5

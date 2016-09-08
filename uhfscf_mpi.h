@@ -20,7 +20,7 @@
 #include "spack_math.h"
 
 /* uhfscf_mpi.h */
-extern void uhf_mpi_free();
+extern void uhf_mpi_clean();
 extern int uhf_mpi_scf_update ();
 extern void uhf_mpi_energy ();
 extern void uhf_mpi_init ();

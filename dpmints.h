@@ -7,7 +7,6 @@
 #include "shell.h"
 #include "center.h"
 #include "md.h"
-#include "rys.h"
 /* dpmints.c */
 extern void dpm_ints ( double *hmat );
 #endif

@@ -14,10 +14,12 @@ AX_PROG_CC_MPI
 AC_LANG([C])
 # Checks for libraries.
 
-AC_CHECK_LIB([m],[main],[],AC_MSG_ERROR([could not find math library!"]))
 # Checks for header files.
 AC_HEADER_STDC
 AC_CHECK_HEADERS([float.h stdint.h stdlib.h string.h sys/time.h])
+AC_CHECK_HEADER([mpi.h],[main],[],AC_MSG_ERROR([could find mpi header]))
+AC_CHECK_LIB([m],[main],[],AC_MSG_ERROR([could not find math library]))
+AC_CHECK_LIB([mpi],[main],[],AC_MSG_ERROR([could not find mpi library]))
 
 # Checks for typedefs, structures, and compiler characteristics.
 AC_HEADER_STDBOOL
